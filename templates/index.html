@@ -4,11 +4,15 @@
 <h1>The Game</h1>
 
 <h2>Results</h2>
+<p>{{game.player1.name}} threw {{game.player1.choice}} </p>
+<p>{{game.player2.name}} threw {{game.player2.choice}} </p>
 {% if winner == None %}
-<p>The game is a tie!</p>
+<p> The game is a tie!</p>
 
 {% else %}
-<p>{{winner.name}} has Won!</p>
+<p></p>
+<p> {{winner.name}} is the winner!</p>
+
 
 {% endif %}
 
