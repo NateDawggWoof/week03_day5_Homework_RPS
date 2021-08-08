@@ -1,6 +1,13 @@
 {%  extends "base.html" %}
 {% block content %}
 
+<div class="homeimages">
+<img class="qdhome" src="https://i.pinimg.com/474x/ba/3b/b6/ba3bb6dd4ef708eb09894c0246ab4d71.jpg" alt="Quick draw 1" id ="qdimg1">
+
+<img class="qdhome" src="https://pbs.twimg.com/media/EJvqDA-WsAsLf9B.jpg" alt="Quick Draw 2" id ="qdimg2">
+
+<img class="qdhome" src="https://lawesq.net/blog/wp-content/uploads/Do-you-feel-lucky-What-is-a-Quick-Draw-Buy-Sell-Agreement.jpg" alt="Quick Draw 3" id = "qdimg3">
+</div>
 <h1>RvSvP</h1>
 
 <h2>Rules</h2>
@@ -9,19 +16,21 @@ Simutenasiouly they reveal their choices at the count of 3.
 </p>
 
 <p>The outcome of the game is determined by 3 simple rules:<br>
-Rock wins against scissors.<br>
-Scissors win against paper.<br>
-Paper wins against Rock <br>
+<ol>
+    Rock wins against scissors.<br>
+    Scissors win against paper.<br>
+    Paper wins against rock. <br>
+</ol>
 <br>
-if both players make the same choice the game is a tie. 
+If both players make the same choice the game is a tie. 
 </p>
 
 <h2>How to play with web App</h2>
 <p>There are 2 ways to play RvSvP. There's PvP, 2 human players or PvC playing against a computer.<br>
     <br>
-To play pvp ente rin the url /player1name/player1choice/player2name/player2choice
+To play PvP enter in the url /player1name/player1choice/player2name/player2choice
     i.e /nath/paper/steve/rock <br>
     <br>
-    To play against the computer please click the link below.
+    To play against the computer please click the PvC link in the nav bar.
 </p>
 {% endblock %}
