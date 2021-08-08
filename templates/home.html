@@ -1,0 +1,27 @@
+{%  extends "base.html" %}
+{% block content %}
+
+<h1>RvSvP</h1>
+
+<h2>Rules</h2>
+<p>The game is played by 2 players who each secretly choose one of 3 objects, rock, paper or scissors. <br>
+Simutenasiouly they reveal their choices at the count of 3.
+</p>
+
+<p>The outcome of the game is determined by 3 simple rules:<br>
+Rock wins against scissors.<br>
+Scissors win against paper.<br>
+Paper wins against Rock <br>
+<br>
+if both players make the same choice the game is a tie. 
+</p>
+
+<h2>How to play with web App</h2>
+<p>There are 2 ways to play RvSvP. There's PvP, 2 human players or PvC playing against a computer.<br>
+    <br>
+To play pvp ente rin the url /player1name/player1choice/player2name/player2choice
+    i.e /nath/paper/steve/rock <br>
+    <br>
+    To play against the computer please click the link below.
+</p>
+{% endblock %}

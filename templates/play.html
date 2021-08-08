@@ -1,0 +1,21 @@
+{%  extends "base.html" %}
+{% block content %}
+
+<h1>PvC</h1>
+
+
+<form action="#" method="post">
+    <label for="name">Player 1 name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="choice">Choose a car:</label>
+    <select name="choice" id="choice">
+      <option value="rock">rock</option>
+      <option value="paper">paper</option>
+      <option value="scissors">scissors</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+{% endblock %}

@@ -7,7 +7,7 @@ class Game:
         self.winner = 0
         self.winner_name = 0
     
-    def game_pvp(self):
+    def play(self):
         throw = self.player1.choice+self.player2.choice
         player1_victory = ["rockscissors", "paperrock", "scissorspaper"]
         if self.player1.choice == self.player2.choice:

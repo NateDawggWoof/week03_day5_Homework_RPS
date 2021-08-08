@@ -1,11 +1,13 @@
 {%  extends "base.html" %}
 {% block content %}
 
-<h1>The Game</h1>
+<h1>The Results<h1>
 
-<h2>Results</h2>
+<h2>Player 1</h2>
 <p>{{game.player1.name}} threw {{game.player1.choice}} </p>
+<h2>Player 2</h2>
 <p>{{game.player2.name}} threw {{game.player2.choice}} </p>
+<h2>Outcome</h2>
 {% if winner == None %}
 <p> The game is a tie!</p>
 
